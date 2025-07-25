@@ -1,9 +1,10 @@
 class Node:
-    self.val=val
-    self.next=None
+    def __init__(self,val):
+        self.val=val
+        self.next=None
 
 class LinkedListStack:
-    def __init__(self,val):
+    def __init__(self):
         self.top_node=None
 
     def push(self,x):
