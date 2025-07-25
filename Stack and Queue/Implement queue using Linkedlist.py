@@ -25,7 +25,7 @@ class LinkedListQueue:
             self.end=None
         return val
 
-    def top(self):
+    def peek(self):
         if self.isEmpty():
             return None
         return self.start.val
