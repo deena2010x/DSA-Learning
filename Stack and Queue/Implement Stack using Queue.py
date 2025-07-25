@@ -1,4 +1,4 @@
-class QueueStack(object):
+class QueueStack:
     def __init__(self):
         self.q=deque()
 
