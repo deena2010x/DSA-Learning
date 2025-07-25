@@ -12,7 +12,7 @@ class StackQueue:
                 self.s2.append(self.s1.pop())
         return self.s2.pop()
 
-    def top(self):
+    def peek(self):
         if not self.s2:
             while self.s1:
                 self.s2.append(self.s1.pop())
