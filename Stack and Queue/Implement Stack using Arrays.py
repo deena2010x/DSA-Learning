@@ -1,4 +1,4 @@
-class ArrayStack(object):
+class ArrayStack:
     def __init__(self):
         self.cap=1000
         self.st=[0]*self.cap
