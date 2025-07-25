@@ -1,4 +1,4 @@
-class ArrayQueue(object):
+class ArrayQueue:
     def __init__(self):
         self.cap=1000
         self.q=[0]*self.cap
