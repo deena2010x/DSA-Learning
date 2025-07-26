@@ -3,7 +3,7 @@ class Node:
         self.val=val
         self.next=None
 
-class LinkedListQueue:
+class LinkedListQueue(object):
     def __init__(self):
         self.start=None
         self.end=None
