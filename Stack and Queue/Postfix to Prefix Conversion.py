@@ -1,4 +1,4 @@
-class Solutiion(object):
+class Solution(object):
     def postfixToPrefix(self,s):
         n=len(s)
         st=[]
