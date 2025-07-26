@@ -3,7 +3,7 @@ class Node:
         self.val=val
         self.next=None
 
-class LinkedListStack:
+class LinkedListStack(object):
     def __init__(self):
         self.top_node=None
 
