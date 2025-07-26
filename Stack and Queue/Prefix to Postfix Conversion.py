@@ -1,4 +1,4 @@
-class solution(object):
+class Solution(object):
     def prefixToPostfix(self,s):
         n=len(s)
         st=[]
