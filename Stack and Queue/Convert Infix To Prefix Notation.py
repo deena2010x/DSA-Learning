@@ -1,4 +1,4 @@
-class solution(object):
+class Solution(object):
     def infixToPrefix(self,s):
         def infixToPostfix(self,s):
             def priority(op):
