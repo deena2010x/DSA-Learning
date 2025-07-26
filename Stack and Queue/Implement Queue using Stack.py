@@ -1,4 +1,4 @@
-class StackQueue:
+class StackQueue(object):
     def __init__(self):
         self.s1=[]
         self.s2=[]
