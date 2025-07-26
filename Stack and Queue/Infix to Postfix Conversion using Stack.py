@@ -1,4 +1,4 @@
-class solution(object):
+class Solution(object):
     def InfixTOPostfix(self,s):
         def priority(op):
             if op=='+' or op=='-':
