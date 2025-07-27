@@ -1,5 +1,5 @@
-class Solution:
-    def subArrayRanges(self,nums):
+class Solution(object):
+    def subArrayRanges(self,a):
         def pse(a):
             n=len(a)
             st=[]
@@ -52,11 +52,11 @@ class Solution:
                     list1[i]=n
                 st.append(i)
             return list1
-        n=len(nums)
-        prev_min=pse(nums)
-        next_min=nse(nums)
-        prev_max=pge(nums)
-        next_max=nge(nums)
+        n=len(a)
+        prev_min=pse(a)
+        next_min=nse(a)
+        prev_max=pge(a)
+        next_max=nge(a)
         total_min=0
         total_max=0
         for i in range(n):
