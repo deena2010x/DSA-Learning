@@ -1,3 +1,4 @@
+from collections import deque
 class Solution:
     def canFinish(self,n,edges):
         graph=[[] for i in range(n)]
