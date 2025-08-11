@@ -1,5 +1,5 @@
-from heapq import heappop, heappush
-class Solution:
+from heapq import heappop,heappush
+class Solution(object):
     def shortestPath(self,N,M,edges):
         graph=[[] for i in range(N)]
         for i,j,k in edges:
