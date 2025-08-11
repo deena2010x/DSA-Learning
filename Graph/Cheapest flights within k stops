@@ -1,0 +1,20 @@
+from heapq import heappop,heappush
+class Solution(object):
+    def findCheapestPrice(self,n,edges,src,dst,k):
+        graph=[[]for i in range(n)]
+        for i,j,k1 in flights:
+            graph[i].append((j,k1))
+        list1=[[float('inf')]*(k+2)for i in range(n)]
+        list1[src][0]=0
+        queue=[(0,src,0)]
+        while queue:
+            cost,node,stops=heappop(queue)
+            if node==dst:
+                return cost
+            if stops<=k:
+                for i,j in graph[node]:
+                    x=cost+j
+                    if x<list1[i][stops+1]:
+                        list1[i][stops+1]=x
+                        heappush(queue,(x,i,stops+1))
+        return -1
