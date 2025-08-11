@@ -1,5 +1,5 @@
 from collections import deque
-class Solution:
+class Solution(object):
     def shortestPath(self,edges,N,M):
         graph=[[] for i in range(N)]
         for i,j in edges:
