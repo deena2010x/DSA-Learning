@@ -1,4 +1,4 @@
-class Solution:
+class Solution(object):
     def matrixMultiplication(self,a):
         def f(i,j):
             if i==j:
