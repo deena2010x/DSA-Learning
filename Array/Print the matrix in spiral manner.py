@@ -1,4 +1,4 @@
-class Solution:
+class Solution(object):
     def spiralOrder(self,matrix):
         list1=[]
         t=0
