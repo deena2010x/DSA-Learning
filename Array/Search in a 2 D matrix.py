@@ -1,4 +1,4 @@
-class Solution:
+class Solution(object):
     def searchMatrix(self,matrix,target):
         m=len(matrix)
         n=len(matrix[0])
